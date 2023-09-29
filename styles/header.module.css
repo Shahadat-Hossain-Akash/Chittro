@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    width: 100%;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(47, 47, 47, 0.50);
+    backdrop-filter: blur(6px);
+}
+.title {
+    font-size: 4rem;
+    font-family: 'acid';
+}
+.container img{
+    object-fit: contain;
+}
